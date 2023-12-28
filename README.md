@@ -1,5 +1,7 @@
 # smol-podcaster
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/fanahova/smol-podcaster)
+
 We use smol-podcaster to take care of most of [Latent Space](https://latent.space) transcription work. What it will do for you:
 
 - Generate a clean, diarized transcript of the podcast with speaker labels and timestamps
@@ -15,7 +17,7 @@ The URL needs to be a direct download link, it can't be a GDrive. For files <100
 
 `python smol-podcaster.py "https://dl.dropboxusercontent.com/XXXX" "Tianqi"`
 
-To get the Dropbox direct download just switch https://www.dropbox.com to https://dl.dropboxusercontent.com in the link. Our studio uses Dropbox for file sharing, which is why it's built this way.
+The script will automatically switch https://www.dropbox.com to https://dl.dropboxusercontent.com in the link.
 
 # Environment Setup
 
